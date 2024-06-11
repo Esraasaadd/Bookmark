@@ -1,0 +1,67 @@
+body{
+    background-color: #f7ecde;
+}
+.container{
+    margin-right: 81px;
+    margin-left: 81px;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
+    position: relative;
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+h2{
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+label{
+    margin-bottom: 5px;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+}
+
+.formDesign{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+    margin-top: 48px;
+}
+
+.btn-submit{
+    background-color: #d1512d;
+    color: white;
+}
+.btn-visit{
+    background-color: #9eb23b;
+    color: white;
+}
